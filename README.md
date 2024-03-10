@@ -18,16 +18,16 @@ Classes:
 Author:
 Location: LibraryManagement/Classes/Author.php
 Properties: name, birthdate
-Use the UniqueIdentifier trait.
+i use the UniqueIdentifier trait.
 Book:
 Location: LibraryManagement/Classes/Book.php
 Implements Readable interface.
 Properties: title, author (type Author), publishedYear
-Use the UniqueIdentifier trait.
+i use the UniqueIdentifier trait.
 LibraryInventory:
 Location: LibraryManagement/Classes/LibraryInventory.php
 Methods: addBook(Book $book), findBookById($id), listAllBooks() 
-Autoloading: Use Composer for autoloading the classes, traits, and interfaces.
+Autoloading:  i use Composer for autoloading the classes, traits, and interfaces.
 Testing:
-Create a test script where you create instances of Author and Book.
+i Create a test script where you create instances of Author and Book.
 Add books to the LibraryInventory and test the inventory methods in the Infernce file.
