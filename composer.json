@@ -1,0 +1,17 @@
+{
+    "name": "mabco/name-spacing",
+    "autoload": {
+        "psr-4": {
+            "Mabco\\NameSpacing\\": "src/",
+            "LibraryManagement\\Classes\\":"./LibraryManagement/Classes"
+            
+        }
+    },
+    "authors": [
+        {
+            "name": "ALI ALI",
+            "email": "alirafikali1234567@gmail.com"
+        }
+    ],
+    "require": {}
+}
